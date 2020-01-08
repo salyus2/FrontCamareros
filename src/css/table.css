@@ -1,0 +1,34 @@
+#employeer_main .tables li {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+#employeer_main .tables li button {
+  height: 50px;
+  width: 75px;
+}
+
+#employeer_main .tables li .content {
+  margin-top: 0px;
+}
+
+#employeer_main .tables li .order {
+  margin-top: 0px;
+}
+
+#employeer_main .tables li .order li {
+  margin-top: 0px;
+  padding: 0px;
+  max-width: 450px;
+}
+ #state{
+   margin-left: 20px;
+ }
+ #table{
+   padding-top: 10px;
+ }
+ #time{
+   padding-top: 20px;
+ }

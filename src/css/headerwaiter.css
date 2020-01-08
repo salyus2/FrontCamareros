@@ -1,0 +1,20 @@
+#employeer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+#employeer button {
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+#employeer img {
+  width: 80px;
+}
+
+#employeer p {
+  margin-top: auto;
+  margin-bottom: auto;
+}

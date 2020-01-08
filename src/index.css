@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:600|Alegreya+Sans:500|Raleway:500i&display=swap');
+@import url("./css/table.css");
+@import url("./css/headerwaiter.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+:root{
+    --dark:rgb(0, 0, 0);
+    --white:rgb(255, 255, 255);
+    --orange:rgb(207, 104, 66);
+    --ko: #e92119;
+    --ok: #3c8c20;
+}
+div#root,body{
+    font-family: Raleway, sans-serif;
+    
+}
+header h1  {
+    margin-top: 0.5rem;
+    text-align: center;
+    
+}
+h1{
+    font-family:"Advent Pro" ;
+}
+h2,h3,h4,h5,h6{
+    font-family:"Alegreya Sans" ;
+}
+
+a,a:visited{
+    text-decoration-line: none;
+    color:inherit;
+    font-size: 0.8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 10rem;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+button,
+input,a {
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+    border-radius: 1rem 1rem;
+    
+}
+fieldset.form-control.ko {
+    color: var(--ko);
+}
+
+fieldset.form-control.ok {
+    color: var(--ok);
+} 
+
+span.errorMessage{
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    color: black;
+}
+
+li{
+    list-style: none;
+}

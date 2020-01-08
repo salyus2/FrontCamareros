@@ -1,0 +1,79 @@
+
+div.home{
+    background-image: url("../img/principal.jpeg");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0.5rem;
+}
+
+header.home{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+button.call{
+    padding: 0.3rem;
+    background-color:rgba(0, 0, 0, 0.4);
+    border: 2px outset var(--white);
+    order: -1;
+    margin: 1rem;
+    width: 3rem;
+    height: 3rem;
+    color:var(--white);
+}
+
+a.shopping-cart{
+    display: block;
+    padding: 0.3rem;
+    background-image: url("../img/car.png");
+    background-size: cover;
+    background-color:transparent;
+    border: 2px outset var(--white);
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+a > span{
+    display: inline-block;
+    height: 1rem;
+    padding: 0.1rem;
+    background: orangered;
+    border-radius: 1rem 1rem;
+    color: white;
+    font-weight: bold;
+    
+    
+
+}
+main#home{
+    align-self: center;
+    text-align: center;
+}
+button.menu{
+width: 10rem;
+height: 2rem;
+background-color:var(--orange);
+border: none;
+font-weight: bold;
+transition:  .3s ease-in;
+}
+ul.home{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button.product-menu{
+font-size: 0.7rem;
+width: 4rem;
+height: 1.5rem;
+background-color:rgba(241, 129, 88, 0.7);
+border:2px solid rgba(0, 0, 0, 0.4);
+margin:0.5rem;
+color: white;
+}
+
+
